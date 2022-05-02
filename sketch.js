@@ -119,10 +119,10 @@ function fruits(){
     fruit.x = 0    
   //aumentar a velocidade das frutas após a pontuação 4 
 
-      // fruit.velocityX= (7+(score/4));
+      fruit.velocityX= (7+(score/4));
       // fruit.velocityY= (7+(score));
       //  fruit.velocity= (7+(score/4));
-      fruit.velocityX= (7);
+      // fruit.velocityX= (7);
      
     fruit.scale=0.2;
      //fruit.debug=true;
